@@ -18,7 +18,7 @@ public class PuppetServlet {
    * @return
    */
   @GET
-  @Produces("text/plain")
+  @Produces({"text/xml", "application/json"})
   public String doGet() {
     LOG.info("Called on a get message ");
     return "puppet";
