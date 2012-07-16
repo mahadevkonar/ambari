@@ -7,6 +7,7 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
+import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.UriInfo;
 
 import org.apache.log4j.Logger;
@@ -22,7 +23,7 @@ public class PuppetServlet {
   @GET
   public String doGet(@Context UriInfo uriInfo) {
     LOG.info("Called on a get message " + uriInfo.getAbsolutePath());
-    return "puppet";
+    return "s";
   }
 
   /**
