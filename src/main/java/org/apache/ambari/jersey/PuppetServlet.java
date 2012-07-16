@@ -6,6 +6,8 @@ import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.UriInfo;
 
 import org.apache.log4j.Logger;
 
@@ -18,9 +20,8 @@ public class PuppetServlet {
    * @return
    */
   @GET
-  @Produces("application/octet-stream")
-  public String doGet() {
-    LOG.info("Called on a get message ");
+  public String doGet(@Context UriInfo uriInfo) {
+    LOG.info("Called on a get message " + uriInfo.getAbsolutePath());
     return "puppet";
   }
 
