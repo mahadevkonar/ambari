@@ -2,6 +2,7 @@ package org.apache.ambari;
 
 import org.mortbay.jetty.Connector;
 import org.mortbay.jetty.Server;
+import org.mortbay.jetty.servlet.Context;
 import org.mortbay.jetty.servlet.ServletHolder;
 import org.mortbay.jetty.ssl.SslSelectChannelConnector;
 
@@ -27,6 +28,9 @@ public class AmbariServer {
     sslConnector.setKeystore("/tmp/keystore");  
     Server server = new Server();
     server.setConnectors(new Connector[] {sslConnector});
+    Context context = new Context(server, "/", Context.SESSIONS);
+    context.addServlet(sh, "/*");
+    server.start();
     server.start();
     server.join();
   }
