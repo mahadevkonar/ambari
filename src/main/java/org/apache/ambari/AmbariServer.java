@@ -6,7 +6,7 @@ import org.mortbay.jetty.servlet.Context;
 import org.mortbay.jetty.servlet.ServletHolder;
 import org.mortbay.jetty.ssl.SslSelectChannelConnector;
 
-import com.sun.jersey.api.core.ResourceConfig;
+import com.sun.jersey.api.core.PackagesResourceConfig;
 import com.sun.jersey.spi.container.servlet.ServletContainer;
 
 public class AmbariServer {
@@ -15,7 +15,7 @@ public class AmbariServer {
   {
     ServletHolder sh = new ServletHolder(ServletContainer.class);
     sh.setInitParameter("com.sun.jersey.config.property.resourceConfigClass", 
-        ResourceConfig.class.getCanonicalName());
+        PackagesResourceConfig.class.getCanonicalName());
     sh.setInitParameter("com.sun.jersey.config.property.packages", 
         "org.apache.ambari.jersey");
     
