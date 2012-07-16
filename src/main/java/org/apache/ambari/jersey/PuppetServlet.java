@@ -9,7 +9,7 @@ import javax.ws.rs.Produces;
 
 import org.apache.log4j.Logger;
 
-@Path("/poduction/certificate/ca")
+@Path("/production/certificate/ca")
 public class PuppetServlet {
   private static final Logger LOG = Logger.getLogger(PuppetServlet.class);
 
