@@ -24,14 +24,13 @@ public class PuppetKickServlet {
 	}
 
 	/**
-	 * 
-	 * @param xml
+	 *  
 	 * @return
 	 */
 	@POST
 	@Consumes("text/pson")
-	public String doPost() {
+	public String doPost(@Context UriInfo uriInfo) {
+		LOG.info("Puppet Kick Servlet called on " + uriInfo.getAbsolutePath());
 		return "Success";
-
 	}
 }
