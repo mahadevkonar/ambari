@@ -10,7 +10,7 @@ import com.sun.jersey.api.core.PackagesResourceConfig;
 import com.sun.jersey.spi.container.servlet.ServletContainer;
 
 public class AmbariAgent {
-  
+
   public static void main(String[] args) throws Exception
   {
     ServletHolder sh = new ServletHolder(ServletContainer.class);
@@ -18,9 +18,9 @@ public class AmbariAgent {
         PackagesResourceConfig.class.getCanonicalName());
     sh.setInitParameter("com.sun.jersey.config.property.packages", 
         "org.apache.ambari.agent.jersey");
-    
+
     /** configure a ssl connector for the puppet agent **/
-    
+
     SslSelectChannelConnector sslConnector = new SslSelectChannelConnector();
     sslConnector.setPort(8139);
     sslConnector.setKeyPassword("123456");
@@ -34,5 +34,5 @@ public class AmbariAgent {
     server.start();
     server.join();
   }
-  
+
 }
