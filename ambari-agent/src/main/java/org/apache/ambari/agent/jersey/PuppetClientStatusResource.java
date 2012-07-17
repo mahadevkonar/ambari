@@ -4,6 +4,7 @@ import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
 
@@ -17,8 +18,9 @@ public class PuppetClientStatusResource {
    * @return
    */
   @GET
-  @Path("{subResources")
-  public String doGet(@Context UriInfo uriInfo) {
+  @Path("{subResources}")
+  public String doGet(@Context UriInfo uriInfo, @PathParam("subResources") 
+    String subResources) {
     LOG.info("Called on a get message " + uriInfo.getAbsolutePath());
     return "success";
   }
