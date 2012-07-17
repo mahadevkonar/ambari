@@ -17,7 +17,7 @@ public class PuppetClientStatusResource {
    * @return
    */
   @GET
-  @Path("{subResources:.*")
+  @Path("{subResources")
   public String doGet(@Context UriInfo uriInfo) {
     LOG.info("Called on a get message " + uriInfo.getAbsolutePath());
     return "success";
