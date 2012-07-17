@@ -9,7 +9,7 @@ import javax.ws.rs.core.UriInfo;
 
 import org.apache.log4j.Logger;
 
-@Path("/production/status/no_key")
+@Path("/production/run")
 public class PuppetClientStatusResource {
   private static final Logger LOG = Logger.getLogger(PuppetClientStatusResource.class);
   /**
@@ -17,6 +17,7 @@ public class PuppetClientStatusResource {
    * @return
    */
   @GET
+  @Path("{subResources:.*")
   public String doGet(@Context UriInfo uriInfo) {
     LOG.info("Called on a get message " + uriInfo.getAbsolutePath());
     return "success";
