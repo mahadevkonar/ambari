@@ -1,0 +1,40 @@
+package org.apache.ambari.server;
+
+import org.mortbay.jetty.Connector;
+import org.mortbay.jetty.Server;
+import org.mortbay.jetty.nio.SelectChannelConnector;
+import org.mortbay.jetty.servlet.Context;
+import org.mortbay.jetty.servlet.ServletHolder;
+
+import com.sun.jersey.api.core.PackagesResourceConfig;
+import com.sun.jersey.spi.container.servlet.ServletContainer;
+
+public class AmbariServer {
+  
+  public static void main(String[] args) throws Exception
+  {
+    ServletHolder sh = new ServletHolder(ServletContainer.class);
+    sh.setInitParameter("com.sun.jersey.config.property.resourceConfigClass", 
+        PackagesResourceConfig.class.getCanonicalName());
+    sh.setInitParameter("com.sun.jersey.config.property.packages", 
+        "org.apache.ambari.jersey");
+    
+    /** configure a ssl connector for the puppet agent **/
+    /*
+    SslSelectChannelConnector sslConnector = new SslSelectChannelConnector();
+    sslConnector.setPort(8140);
+    sslConnector.setKeyPassword("123456");
+    sslConnector.setPassword("123456");
+    sslConnector.setKeystore("/tmp/keystore");  
+    */
+    SelectChannelConnector connector = new SelectChannelConnector();
+    Server server = new Server();
+    server.setConnectors(new Connector[] {connector});
+    Context context = new Context(server, "/", Context.SESSIONS);
+    context.addServlet(sh, "/*");
+    server.start();
+    server.start();
+    server.join();
+  }
+  
+}
