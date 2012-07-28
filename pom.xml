@@ -15,52 +15,111 @@
 
   <dependencyManagement>
   <dependencies>
-    <dependency>
-     <groupId>org.eclipse.persistence</groupId>
-     <artifactId>javax.persistence</artifactId>
+   <dependency>
+    <groupid>commons-cli</groupid>
+    <artifactid>commons-cli</artifactid>
+    <version>1.2</version>
+  </dependency>
+  <dependency>
+    <groupid>commons-daemon</groupid>
+    <artifactid>commons-daemon</artifactid>
+    <version>1.0.5</version>
+    <scope>test</scope>
+  </dependency>
+  <dependency>
+    <groupid>commons-configuration</groupid>
+    <artifactid>commons-configuration</artifactid>
+    <version>1.6</version>
+  </dependency>
+  <dependency>
+    <groupid>javax.jmdns</groupid>
+    <artifactid>jmdns</artifactid>
+    <version>3.4.0</version>
+  </dependency>
+  <dependency>
+    <groupid>org.codehaus.jackson</groupid>
+    <artifactid>jackson-xc</artifactid>
+    <version>1.8.5</version>
+  </dependency>
+  <dependency>
+    <groupid>com.sun.jersey</groupid>
+    <artifactid>jersey-json</artifactid>
+    <version>1.8</version>
+  </dependency>
+  <dependency>
+    <groupid>com.sun.jersey</groupid>
+    <artifactid>jersey-client</artifactid>
+    <version>1.8</version>
+  </dependency>
+  <dependency>
+    <groupid>log4j</groupid>
+    <artifactid>log4j</artifactid>
+    <version>1.2.15</version>
+    <exclusions>
+      <exclusion>
+        <groupid>javax.mail</groupid>
+        <artifactid>mail</artifactid>
+      </exclusion>
+      <exclusion>
+        <groupid>javax.jms</groupid>
+        <artifactid>jms</artifactid>
+      </exclusion>
+      <exclusion>
+        <groupid>com.sun.jdmk</groupid>
+        <artifactid>jmxtools</artifactid>
+      </exclusion>
+      <exclusion>
+        <groupid>com.sun.jmx</groupid>
+        <artifactid>jmxri</artifactid>
+      </exclusion>
+    </exclusions>
+  </dependency>
+  <dependency>
+     <groupid>org.eclipse.persistence</groupid>
+     <artifactid>javax.persistence</artifactid>
      <version>2.0.0</version>
      <scope>provided</scope>
    </dependency>
    <dependency>
-    <groupId>org.eclipse.persistence</groupId>
-    <artifactId>eclipselink</artifactId>
+    <groupid>org.eclipse.persistence</groupid>
+    <artifactid>eclipselink</artifactid>
     <version>2.0.0</version>
     <scope>provided</scope>
    </dependency>
    <dependency>
-      <groupId>org.mortbay.jetty</groupId>
-      <artifactId>jetty</artifactId>
+      <groupid>org.mortbay.jetty</groupid>
+      <artifactid>jetty</artifactid>
       <version>${jetty.version}</version>
       <type>jar</type>
     </dependency>
     <dependency>
-     <groupId>commons-logging</groupId>
-     <artifactId>commons-logging</artifactId>
+     <groupid>commons-logging</groupid>
+     <artifactid>commons-logging</artifactid>
       <version>1.1.1</version>
    </dependency> 
     <dependency>
-      <groupId>org.mortbay.jetty</groupId>
-      <artifactId>jetty-ssl</artifactId>
+      <groupid>org.mortbay.jetty</groupid>
+      <artifactid>jetty-ssl</artifactid>
       <version>7.0.0.pre5</version>
     </dependency>
     <dependency>
-      <groupId>org.mortbay.jetty</groupId>
-      <artifactId>jetty-util</artifactId>
+      <groupid>org.mortbay.jetty</groupid>
+      <artifactid>jetty-util</artifactid>
       <version>${jetty.version}</version>
       <type>jar</type>
     </dependency>
 
     <dependency>
-      <groupId>org.mortbay.jetty</groupId>
-      <artifactId>jetty-plus</artifactId>
+      <groupid>org.mortbay.jetty</groupid>
+      <artifactid>jetty-plus</artifactid>
       <version>${jetty.version}</version>
       <type>jar</type>
     </dependency>
 
     <dependency>
-      <!-- the implementation of JAX-RS -->
-      <groupId>com.sun.jersey</groupId>
-      <artifactId>jersey-server</artifactId>
+      <!-- the implementation of jax-rs -->
+      <groupid>com.sun.jersey</groupid>
+      <artifactid>jersey-server</artifactid>
       <version>1.0.1</version>
     </dependency>
     <dependency>

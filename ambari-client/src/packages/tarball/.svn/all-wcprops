@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/client/src/packages/tarball
+END
+source.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/client/src/packages/tarball/source.xml
+END
+binary.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/client/src/packages/tarball/binary.xml
+END
+all.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/client/src/packages/tarball/all.xml
+END

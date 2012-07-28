@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/client/src/main/java/org/apache/ambari/common/util
+END
+DaemonWatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/client/src/main/java/org/apache/ambari/common/util/DaemonWatcher.java
+END
+JAXBUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/client/src/main/java/org/apache/ambari/common/util/JAXBUtil.java
+END
+ServiceDiscoveryUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/client/src/main/java/org/apache/ambari/common/util/ServiceDiscoveryUtil.java
+END
+ServiceDiscovery.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/client/src/main/java/org/apache/ambari/common/util/ServiceDiscovery.java
+END
+HostUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/client/src/main/java/org/apache/ambari/common/util/HostUtil.java
+END
+ExceptionUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/client/src/main/java/org/apache/ambari/common/util/ExceptionUtil.java
+END
+PidFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/client/src/main/java/org/apache/ambari/common/util/PidFile.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/client/src/main/java/org/apache/ambari/common/util/FileUtil.java
+END
