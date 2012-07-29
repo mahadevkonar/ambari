@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/resources/org/apache/ambari/stacks
+END
+cluster123-0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/resources/org/apache/ambari/stacks/cluster123-0.xml
+END
+puppet1-0.json
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/resources/org/apache/ambari/stacks/puppet1-0.json
+END
+cluster124-0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/resources/org/apache/ambari/stacks/cluster124-0.xml
+END
+hadoop-security-0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/resources/org/apache/ambari/stacks/hadoop-security-0.xml
+END
+horton-0.json
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/resources/org/apache/ambari/stacks/horton-0.json
+END

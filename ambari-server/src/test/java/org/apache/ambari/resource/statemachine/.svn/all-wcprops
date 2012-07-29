@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/test/java/org/apache/ambari/resource/statemachine
+END
+StateMachineInvokerSync.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/test/java/org/apache/ambari/resource/statemachine/StateMachineInvokerSync.java
+END
+StateMachineInvokerImplNoOp.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/test/java/org/apache/ambari/resource/statemachine/StateMachineInvokerImplNoOp.java
+END
+NoOpDispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/test/java/org/apache/ambari/resource/statemachine/NoOpDispatcher.java
+END
+TestServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/test/java/org/apache/ambari/resource/statemachine/TestServiceImpl.java
+END
+SyncDispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/test/java/org/apache/ambari/resource/statemachine/SyncDispatcher.java
+END
+TestClusterImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/test/java/org/apache/ambari/resource/statemachine/TestClusterImpl.java
+END
+TestRoleImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/test/java/org/apache/ambari/resource/statemachine/TestRoleImpl.java
+END
+TestModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/test/java/org/apache/ambari/resource/statemachine/TestModule.java
+END
+TestStateMachineInvokerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/test/java/org/apache/ambari/resource/statemachine/TestStateMachineInvokerImpl.java
+END
+TestClusterImplServiceCreation.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/test/java/org/apache/ambari/resource/statemachine/TestClusterImplServiceCreation.java
+END
+TestClusterImplFailure.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/test/java/org/apache/ambari/resource/statemachine/TestClusterImplFailure.java
+END

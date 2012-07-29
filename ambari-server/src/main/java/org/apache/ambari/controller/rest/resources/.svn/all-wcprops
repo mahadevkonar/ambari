@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/rest/resources
+END
+ContextProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/rest/resources/ContextProvider.java
+END
+WadlResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/rest/resources/WadlResource.java
+END
+NodesResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/rest/resources/NodesResource.java
+END
+StacksResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/rest/resources/StacksResource.java
+END
+ClustersResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/rest/resources/ClustersResource.java
+END

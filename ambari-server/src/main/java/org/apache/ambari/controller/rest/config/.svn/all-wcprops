@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/rest/config
+END
+PrivateWadlGeneratorConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/rest/config/PrivateWadlGeneratorConfig.java
+END
+WadlDocGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/rest/config/WadlDocGenerator.java
+END
+ExtendedWadlGeneratorConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/rest/config/ExtendedWadlGeneratorConfig.java
+END
+Examples.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/rest/config/Examples.java
+END

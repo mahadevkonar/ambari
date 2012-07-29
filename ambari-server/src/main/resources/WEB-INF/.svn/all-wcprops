@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/resources/WEB-INF
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/resources/WEB-INF/web.xml
+END
+jetty.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/resources/WEB-INF/jetty.xml
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller
+END
+Cluster.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/Cluster.java
+END
+Controller.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/Controller.java
+END
+Clusters.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/Clusters.java
+END
+Nodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/Nodes.java
+END
+Stacks.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/Stacks.java
+END
+ClusterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/ClusterFactory.java
+END
+ControllerModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/ControllerModule.java
+END
+StackFlattener.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/StackFlattener.java
+END
+ExceptionResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/ExceptionResponse.java
+END
+HeartbeatHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/HeartbeatHandler.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1359938/incubator/ambari/branches/branch-0.1/controller/src/main/java/org/apache/ambari/controller/Util.java
+END
