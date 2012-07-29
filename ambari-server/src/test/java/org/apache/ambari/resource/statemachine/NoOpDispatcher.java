@@ -8,16 +8,15 @@ import org.apache.ambari.event.EventHandler;
  * To test objects with state in isolation, set this no-op Dispatcher
  */
 class NoOPDispatcher implements Dispatcher{
+  @SuppressWarnings("rawtypes")
   class NoOPEventHandler implements EventHandler<Event>{
 
     @Override
     public void handle(Event event) {
-     //no-op
     }
-    
   }
   EventHandler<?> ehandler = new NoOPEventHandler();
-  
+
   @Override
   public EventHandler<?> getEventHandler() {
     return ehandler;
@@ -25,12 +24,10 @@ class NoOPDispatcher implements Dispatcher{
 
   @Override
   public void register(Class<? extends Enum> eventType, EventHandler handler) {
-    //no-op
   }
 
   @Override
   public void start() {
-    //no-op
   }
-  
+
 }

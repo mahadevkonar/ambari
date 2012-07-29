@@ -282,11 +282,6 @@
     </dependency>
     <dependency>
       <groupId>com.sun.jersey.jersey-test-framework</groupId>
-      <artifactId>jersey-test-framework-grizzly2</artifactId>
-    </dependency>
-    <!-- for external testing -->
-    <dependency>
-      <groupId>com.sun.jersey.jersey-test-framework</groupId>
       <artifactId>jersey-test-framework-external</artifactId>
     </dependency>
   </dependencies>

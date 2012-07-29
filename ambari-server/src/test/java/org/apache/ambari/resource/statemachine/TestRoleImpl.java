@@ -1,22 +1,17 @@
 package org.apache.ambari.resource.statemachine;
 
 import static org.mockito.Mockito.mock;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
 
 import org.apache.ambari.common.state.InvalidStateTransitonException;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
-
 import com.google.inject.Guice;
 
 
 public class TestRoleImpl {
   RoleImpl role;
   
-  @BeforeMethod
+  @Before
   public void setup(){
     Guice.createInjector(new TestModule());
     ServiceFSM service = mock(ServiceFSM.class);  

@@ -27,21 +27,18 @@ import com.google.inject.Inject;
 public class DataStoreFactory {
 
   private final DataStore ds;
-  
+
   @Inject
   DataStoreFactory(Configuration conf) throws IOException {
     URI uri = conf.getDataStore();
     String scheme = uri.getScheme();
-    if ("zk".equals(scheme)) {
-      String auth = uri.getAuthority();
-      ds = new ZookeeperDS(auth);
-    } else if ("test".equals(scheme)) {
+    if ("test".equals(scheme)) {
       ds = new StaticDataStore();
     } else {
       throw new IllegalArgumentException("Unknown data store " + scheme);
     }
   }
-  
+
   public DataStore getInstance() {
     return ds;
   }
