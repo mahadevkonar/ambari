@@ -13,6 +13,9 @@
     <module>ambari-client</module>
     <module>ambari-common</module>
   </modules>
+  <properties>
+    <jetty.version>7.0.0.pre5</jetty.version>
+  </properties>
   <dependencyManagement>
     <dependencies>
       <dependency>
