@@ -5,13 +5,16 @@ import static org.mockito.Mockito.mock;
 import java.io.IOException;
 
 import org.apache.ambari.common.state.InvalidStateTransitonException;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import static org.testng.Assert.*;
 import com.google.inject.Guice;
 
 
 public class TestRoleImpl {
   RoleImpl role;
   
-  @Before
+  @BeforeTest
   public void setup(){
     Guice.createInjector(new TestModule());
     ServiceFSM service = mock(ServiceFSM.class);  

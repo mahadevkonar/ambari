@@ -1,4 +1,4 @@
-/*
+/**
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
  * distributed with this work for additional information
@@ -63,7 +63,7 @@ import org.apache.ambari.resource.statemachine.ServiceState;
 import org.apache.ambari.resource.statemachine.StateMachineInvokerInterface;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.google.inject.Guice;
@@ -108,7 +108,7 @@ public class TestHeartbeat {
     }
   }
   
-  @BeforeMethod
+  @BeforeTest
   public void setup() throws Exception {
     injector = Guice.createInjector(new TestModule());
     driver = injector.getInstance(FSMDriverInterface.class);

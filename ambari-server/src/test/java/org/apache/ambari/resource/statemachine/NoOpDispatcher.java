@@ -22,6 +22,7 @@ class NoOPDispatcher implements Dispatcher{
     return ehandler;
   }
 
+  @SuppressWarnings("rawtypes")
   @Override
   public void register(Class<? extends Enum> eventType, EventHandler handler) {
   }
