@@ -30,8 +30,8 @@ import org.apache.ambari.common.rest.entities.NodeRole;
 import org.apache.ambari.common.rest.entities.NodeState;
 import org.apache.ambari.common.rest.entities.RoleToNodes;
 import org.apache.ambari.common.rest.entities.Stack;
-import org.apache.ambari.controller.Util;
 import org.apache.ambari.common.rest.entities.StackInformation;
+import org.apache.ambari.controller.Util;
 
 public class Examples {
 	public static final ClusterInformation CLUSTER_INFORMATION = new ClusterInformation();

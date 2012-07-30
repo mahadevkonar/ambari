@@ -20,6 +20,7 @@ package org.apache.ambari.controller;
 
 import java.io.IOException;
 
+import org.apache.ambari.controller.Cluster;
 import org.apache.ambari.resource.statemachine.ClusterFSM;
 import org.apache.ambari.resource.statemachine.FSMDriverInterface;
 

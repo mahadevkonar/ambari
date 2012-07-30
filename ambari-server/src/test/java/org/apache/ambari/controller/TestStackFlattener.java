@@ -35,6 +35,8 @@ import org.apache.ambari.common.rest.entities.Stack;
 import org.apache.ambari.common.rest.entities.UserGroup;
 import org.apache.ambari.components.ComponentPlugin;
 import org.apache.ambari.components.ComponentPluginFactory;
+import org.apache.ambari.controller.StackFlattener;
+import org.apache.ambari.controller.Stacks;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

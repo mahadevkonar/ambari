@@ -1,4 +1,4 @@
-/*
+/**
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
  * distributed with this work for additional information
@@ -40,8 +40,8 @@ import com.google.inject.Singleton;
 import com.sun.jersey.spi.container.servlet.ServletContainer;
 
 @Singleton
-public class Controller {
-  private static Log LOG = LogFactory.getLog(Controller.class);
+public class AmbariController {
+  private static Log LOG = LogFactory.getLog(AmbariController.class);
   public static int CONTROLLER_PORT = 4080;
   private Server server = null;
   public volatile boolean running = true; // true while controller runs
@@ -122,7 +122,7 @@ public class Controller {
     try {
       Clusters clusters = injector.getInstance(Clusters.class);
       clusters.recoverClustersStateAfterRestart();
-      Controller controller = injector.getInstance(Controller.class);
+      AmbariController controller = injector.getInstance(AmbariController.class);
       if (controller != null) {
         controller.run();
       }
