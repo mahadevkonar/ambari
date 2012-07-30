@@ -51,7 +51,7 @@ public class AmbariController {
 
     try {
       Context root = new Context(server, "/", Context.SESSIONS);
-      String AMBARI_HOME = System.getenv("./src/main");
+      String AMBARI_HOME = "./src/main";
       root.setBaseResource(new ResourceCollection(new Resource[]
         {
           Resource.newResource(AMBARI_HOME+"/webapps/")

@@ -42,5 +42,4 @@ public class ActionResults {
     }
     this.actionResults.add(actionResult);
   }
-
 }
