@@ -78,29 +78,15 @@ public class AmbariController {
         "org.apache.ambari.controller.rest.config.PrivateWadlGeneratorConfig");
       root.addServlet(agent, "/agent/*");
       agent.setInitOrder(3);
-/*    //COMMENTED THE FOLLOWING LINE TO WORK AROUND AMBARI-159
-      Constraint constraint = new Constraint();
-      constraint.setName(Constraint.__BASIC_AUTH);;
-      constraint.setRoles(new String[]{"user","admin","moderator"});
-      constraint.setAuthenticate(true);
-       
-      ConstraintMapping cm = new ConstraintMapping();
-      cm.setConstraint(constraint);
-      cm.setPathSpec("/agent/*");
-      
-      SecurityHandler security = new SecurityHandler();
-      security.setUserRealm(new HashUserRealm("Controller",
-          System.getenv("AMBARI_CONF_DIR")+"/auth.conf"));
-      security.setConstraintMappings(new ConstraintMapping[]{cm});
-
-      //root.addHandler(security);  
-*/
       server.setStopAtShutdown(true);
       
       /*
        * Start the server after controller state is recovered.
        */
       server.start();
+      LOG.info("Started Server");
+      server.join();
+      LOG.info("Joined the Server");
     } catch (Exception e) {
       e.printStackTrace();
       LOG.error(ExceptionUtil.getStackTrace(e));
@@ -120,8 +106,7 @@ public class AmbariController {
     Injector injector = Guice.createInjector(new ControllerModule());
     DaemonWatcher.createInstance(System.getProperty("PID"), 9100);
     try {
-      Clusters clusters = injector.getInstance(Clusters.class);
-      clusters.recoverClustersStateAfterRestart();
+      LOG.info("Getting the controller");
       AmbariController controller = injector.getInstance(AmbariController.class);
       if (controller != null) {
         controller.run();

@@ -18,7 +18,6 @@
 package org.apache.ambari.datastore;
 
 import java.io.IOException;
-import java.net.URI;
 
 import org.apache.ambari.configuration.Configuration;
 
@@ -30,13 +29,7 @@ public class DataStoreFactory {
 
   @Inject
   DataStoreFactory(Configuration conf) throws IOException {
-    URI uri = conf.getDataStore();
-    String scheme = uri.getScheme();
-    if ("test".equals(scheme)) {
-      ds = new StaticDataStore();
-    } else {
-      throw new IllegalArgumentException("Unknown data store " + scheme);
-    }
+    ds = new StaticDataStore();
   }
 
   public DataStore getInstance() {

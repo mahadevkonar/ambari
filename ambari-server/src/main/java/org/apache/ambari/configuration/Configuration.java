@@ -49,7 +49,7 @@ public class Configuration {
   protected Configuration(Properties properties) {
     // get the data store
     String dataStoreString = properties.getProperty("data.store", 
-                                                    "zk://localhost:2181/");
+                                                    "test://test/");
     try {
       dataStore = new URI(dataStoreString);
     } catch (URISyntaxException e) {
