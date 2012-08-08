@@ -10,7 +10,7 @@
     <jetty.version>7.0.0.pre5</jetty.version>
   </properties>
   <parent>
-    <groupId>org.apache</groupId>
+    <groupId>org.apache.ambari</groupId>
     <version>1.0-SNAPSHOT</version>
     <artifactId>ambari</artifactId>
   </parent>
@@ -58,11 +58,6 @@
       <!-- used in integration tests -->
       <groupId>javanettasks</groupId>
       <artifactId>httpunit</artifactId>
-    </dependency>
-    <dependency>
-      <!-- this is needed by HTTP-UNIT and is missing from their pom.xml -->
-      <groupId>rhino</groupId>
-      <artifactId>js</artifactId>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
